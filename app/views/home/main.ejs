@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<%- include(`${partialsDir}/meta`) %>
+
+		<title>Project</title>
+	</head>
+
+	<body>
+		
+		<div id="main-content"></div>
+
+		<%- include('./styles/main') %> 
+
+		<script defer src="/scripts/home/main.js"></script>
+		<script defer src="/libraries/p5js/p5.js"></script>
+
+		<script defer src="/libraries/physics/Clock.js"></script>
+		<script defer src="/libraries/physics/objects/FixedParticle.js"></script>
+		<script defer src="/libraries/physics/objects/Particle.js"></script>
+
+		<script defer src="/sketch.js"></script>
+	</body>
+</html>
